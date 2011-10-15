@@ -370,6 +370,7 @@
 		571136CB144952D500D8E5C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEPLOYMENT_LOCATION = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Typeer/Typeer-Prefix.pch";
 				INFOPLIST_FILE = "Typeer/Typeer-Info.plist";
@@ -381,6 +382,7 @@
 		571136CC144952D500D8E5C3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEPLOYMENT_LOCATION = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Typeer/Typeer-Prefix.pch";
 				INFOPLIST_FILE = "Typeer/Typeer-Info.plist";
@@ -436,6 +438,7 @@
 				571136CC144952D500D8E5C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		571136CD144952D500D8E5C3 /* Build configuration list for PBXNativeTarget "TypeerTests" */ = {
 			isa = XCConfigurationList;
@@ -444,6 +447,7 @@
 				571136CF144952D500D8E5C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
