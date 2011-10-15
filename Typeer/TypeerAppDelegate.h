@@ -3,15 +3,16 @@
 //  Typeer
 //
 //  Created by Erik Kastner on 10/15/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Copyright 2011 Meta | ateM. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>
 
 @interface TypeerAppDelegate : NSObject <NSApplicationDelegate> {
-    NSWindow *_window;
+    NSEvent *_eventMonitor;
+    int keyCount;
+    NSStatusItem *statusItem;
+	IBOutlet NSMenu *statusMenu;
 }
-
-@property (strong) IBOutlet NSWindow *window;
 
 @end

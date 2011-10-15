@@ -35,19 +35,19 @@
 		5711369F144952D500D8E5C3 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		571136A0144952D500D8E5C3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		571136A1144952D500D8E5C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		571136A4144952D500D8E5C3 /* Typeer-Info.plist */ = {isa = PBXFileReference; path = "Typeer-Info.plist"; sourceTree = "<group>"; };
+		571136A4144952D500D8E5C3 /* Typeer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Typeer-Info.plist"; sourceTree = "<group>"; };
 		571136A6144952D500D8E5C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		571136A8144952D500D8E5C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		571136AA144952D500D8E5C3 /* Typeer-Prefix.pch */ = {isa = PBXFileReference; path = "Typeer-Prefix.pch"; sourceTree = "<group>"; };
+		571136AA144952D500D8E5C3 /* Typeer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Typeer-Prefix.pch"; sourceTree = "<group>"; };
 		571136AC144952D500D8E5C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		571136AE144952D500D8E5C3 /* TypeerAppDelegate.h */ = {isa = PBXFileReference; path = TypeerAppDelegate.h; sourceTree = "<group>"; };
+		571136AE144952D500D8E5C3 /* TypeerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TypeerAppDelegate.h; sourceTree = "<group>"; };
 		571136AF144952D500D8E5C3 /* TypeerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TypeerAppDelegate.m; sourceTree = "<group>"; };
 		571136B2144952D500D8E5C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		571136B9144952D500D8E5C3 /* TypeerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TypeerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		571136BA144952D500D8E5C3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		571136C1144952D500D8E5C3 /* TypeerTests-Info.plist */ = {isa = PBXFileReference; path = "TypeerTests-Info.plist"; sourceTree = "<group>"; };
+		571136C1144952D500D8E5C3 /* TypeerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TypeerTests-Info.plist"; sourceTree = "<group>"; };
 		571136C3144952D500D8E5C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		571136C5144952D500D8E5C3 /* TypeerTests.h */ = {isa = PBXFileReference; path = TypeerTests.h; sourceTree = "<group>"; };
+		571136C5144952D500D8E5C3 /* TypeerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TypeerTests.h; sourceTree = "<group>"; };
 		571136C6144952D500D8E5C3 /* TypeerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TypeerTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -197,6 +197,10 @@
 /* Begin PBXProject section */
 		5711368F144952D500D8E5C3 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Meta | ateM";
+			};
 			buildConfigurationList = 57113692144952D500D8E5C3 /* Build configuration list for PBXProject "Typeer" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;

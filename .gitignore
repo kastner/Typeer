@@ -1,0 +1,12 @@
+#Xcode-related files
+/xcuserdata/
+/build/
+*.pbxuser
+*.mode1v3
+version.xcconfig
+*.xcuserdatad
+*.perspectivev3
+
+#OSX-related noise
+.DS_Store
+profile
