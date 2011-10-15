@@ -6,6 +6,7 @@
 version.xcconfig
 *.xcuserdatad
 *.perspectivev3
+contents.xcworkspacedata
 
 #OSX-related noise
 .DS_Store
