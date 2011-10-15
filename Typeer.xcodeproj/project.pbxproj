@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5711369D144952D500D8E5C3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5711369C144952D500D8E5C3 /* Cocoa.framework */; };
+		571136A7144952D500D8E5C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 571136A5144952D500D8E5C3 /* InfoPlist.strings */; };
+		571136A9144952D500D8E5C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 571136A8144952D500D8E5C3 /* main.m */; };
+		571136AD144952D500D8E5C3 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 571136AB144952D500D8E5C3 /* Credits.rtf */; };
+		571136B0144952D500D8E5C3 /* TypeerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 571136AF144952D500D8E5C3 /* TypeerAppDelegate.m */; };
+		571136B3144952D500D8E5C3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 571136B1144952D500D8E5C3 /* MainMenu.xib */; };
+		571136BB144952D500D8E5C3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 571136BA144952D500D8E5C3 /* SenTestingKit.framework */; };
+		571136BC144952D500D8E5C3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5711369C144952D500D8E5C3 /* Cocoa.framework */; };
+		571136C4144952D500D8E5C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 571136C2144952D500D8E5C3 /* InfoPlist.strings */; };
+		571136C7144952D500D8E5C3 /* TypeerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 571136C6144952D500D8E5C3 /* TypeerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		571136BD144952D500D8E5C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5711368F144952D500D8E5C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57113697144952D500D8E5C3;
+			remoteInfo = Typeer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57113698144952D500D8E5C3 /* Typeer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Typeer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5711369C144952D500D8E5C3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5711369F144952D500D8E5C3 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		571136A0144952D500D8E5C3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		571136A1144952D500D8E5C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		571136A4144952D500D8E5C3 /* Typeer-Info.plist */ = {isa = PBXFileReference; path = "Typeer-Info.plist"; sourceTree = "<group>"; };
+		571136A6144952D500D8E5C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		571136A8144952D500D8E5C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		571136AA144952D500D8E5C3 /* Typeer-Prefix.pch */ = {isa = PBXFileReference; path = "Typeer-Prefix.pch"; sourceTree = "<group>"; };
+		571136AC144952D500D8E5C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		571136AE144952D500D8E5C3 /* TypeerAppDelegate.h */ = {isa = PBXFileReference; path = TypeerAppDelegate.h; sourceTree = "<group>"; };
+		571136AF144952D500D8E5C3 /* TypeerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TypeerAppDelegate.m; sourceTree = "<group>"; };
+		571136B2144952D500D8E5C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		571136B9144952D500D8E5C3 /* TypeerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TypeerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		571136BA144952D500D8E5C3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		571136C1144952D500D8E5C3 /* TypeerTests-Info.plist */ = {isa = PBXFileReference; path = "TypeerTests-Info.plist"; sourceTree = "<group>"; };
+		571136C3144952D500D8E5C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		571136C5144952D500D8E5C3 /* TypeerTests.h */ = {isa = PBXFileReference; path = TypeerTests.h; sourceTree = "<group>"; };
+		571136C6144952D500D8E5C3 /* TypeerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TypeerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57113695144952D500D8E5C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5711369D144952D500D8E5C3 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		571136B5144952D500D8E5C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571136BB144952D500D8E5C3 /* SenTestingKit.framework in Frameworks */,
+				571136BC144952D500D8E5C3 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5711368D144952D500D8E5C3 = {
+			isa = PBXGroup;
+			children = (
+				571136A2144952D500D8E5C3 /* Typeer */,
+				571136BF144952D500D8E5C3 /* TypeerTests */,
+				5711369B144952D500D8E5C3 /* Frameworks */,
+				57113699144952D500D8E5C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57113699144952D500D8E5C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57113698144952D500D8E5C3 /* Typeer.app */,
+				571136B9144952D500D8E5C3 /* TypeerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5711369B144952D500D8E5C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5711369C144952D500D8E5C3 /* Cocoa.framework */,
+				571136BA144952D500D8E5C3 /* SenTestingKit.framework */,
+				5711369E144952D500D8E5C3 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5711369E144952D500D8E5C3 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5711369F144952D500D8E5C3 /* AppKit.framework */,
+				571136A0144952D500D8E5C3 /* CoreData.framework */,
+				571136A1144952D500D8E5C3 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		571136A2144952D500D8E5C3 /* Typeer */ = {
+			isa = PBXGroup;
+			children = (
+				571136AE144952D500D8E5C3 /* TypeerAppDelegate.h */,
+				571136AF144952D500D8E5C3 /* TypeerAppDelegate.m */,
+				571136B1144952D500D8E5C3 /* MainMenu.xib */,
+				571136A3144952D500D8E5C3 /* Supporting Files */,
+			);
+			path = Typeer;
+			sourceTree = "<group>";
+		};
+		571136A3144952D500D8E5C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				571136A4144952D500D8E5C3 /* Typeer-Info.plist */,
+				571136A5144952D500D8E5C3 /* InfoPlist.strings */,
+				571136A8144952D500D8E5C3 /* main.m */,
+				571136AA144952D500D8E5C3 /* Typeer-Prefix.pch */,
+				571136AB144952D500D8E5C3 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		571136BF144952D500D8E5C3 /* TypeerTests */ = {
+			isa = PBXGroup;
+			children = (
+				571136C5144952D500D8E5C3 /* TypeerTests.h */,
+				571136C6144952D500D8E5C3 /* TypeerTests.m */,
+				571136C0144952D500D8E5C3 /* Supporting Files */,
+			);
+			path = TypeerTests;
+			sourceTree = "<group>";
+		};
+		571136C0144952D500D8E5C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				571136C1144952D500D8E5C3 /* TypeerTests-Info.plist */,
+				571136C2144952D500D8E5C3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57113697144952D500D8E5C3 /* Typeer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 571136CA144952D500D8E5C3 /* Build configuration list for PBXNativeTarget "Typeer" */;
+			buildPhases = (
+				57113694144952D500D8E5C3 /* Sources */,
+				57113695144952D500D8E5C3 /* Frameworks */,
+				57113696144952D500D8E5C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Typeer;
+			productName = Typeer;
+			productReference = 57113698144952D500D8E5C3 /* Typeer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		571136B8144952D500D8E5C3 /* TypeerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 571136CD144952D500D8E5C3 /* Build configuration list for PBXNativeTarget "TypeerTests" */;
+			buildPhases = (
+				571136B4144952D500D8E5C3 /* Sources */,
+				571136B5144952D500D8E5C3 /* Frameworks */,
+				571136B6144952D500D8E5C3 /* Resources */,
+				571136B7144952D500D8E5C3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				571136BE144952D500D8E5C3 /* PBXTargetDependency */,
+			);
+			name = TypeerTests;
+			productName = TypeerTests;
+			productReference = 571136B9144952D500D8E5C3 /* TypeerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5711368F144952D500D8E5C3 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 57113692144952D500D8E5C3 /* Build configuration list for PBXProject "Typeer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5711368D144952D500D8E5C3;
+			productRefGroup = 57113699144952D500D8E5C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57113697144952D500D8E5C3 /* Typeer */,
+				571136B8144952D500D8E5C3 /* TypeerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57113696144952D500D8E5C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571136A7144952D500D8E5C3 /* InfoPlist.strings in Resources */,
+				571136AD144952D500D8E5C3 /* Credits.rtf in Resources */,
+				571136B3144952D500D8E5C3 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		571136B6144952D500D8E5C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571136C4144952D500D8E5C3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		571136B7144952D500D8E5C3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57113694144952D500D8E5C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571136A9144952D500D8E5C3 /* main.m in Sources */,
+				571136B0144952D500D8E5C3 /* TypeerAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		571136B4144952D500D8E5C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571136C7144952D500D8E5C3 /* TypeerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		571136BE144952D500D8E5C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57113697144952D500D8E5C3 /* Typeer */;
+			targetProxy = 571136BD144952D500D8E5C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		571136A5144952D500D8E5C3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				571136A6144952D500D8E5C3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		571136AB144952D500D8E5C3 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				571136AC144952D500D8E5C3 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		571136B1144952D500D8E5C3 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				571136B2144952D500D8E5C3 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		571136C2144952D500D8E5C3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				571136C3144952D500D8E5C3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		571136C8144952D500D8E5C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		571136C9144952D500D8E5C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		571136CB144952D500D8E5C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Typeer/Typeer-Prefix.pch";
+				INFOPLIST_FILE = "Typeer/Typeer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		571136CC144952D500D8E5C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Typeer/Typeer-Prefix.pch";
+				INFOPLIST_FILE = "Typeer/Typeer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		571136CE144952D500D8E5C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Typeer.app/Contents/MacOS/Typeer";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Typeer/Typeer-Prefix.pch";
+				INFOPLIST_FILE = "TypeerTests/TypeerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		571136CF144952D500D8E5C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Typeer.app/Contents/MacOS/Typeer";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Typeer/Typeer-Prefix.pch";
+				INFOPLIST_FILE = "TypeerTests/TypeerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57113692144952D500D8E5C3 /* Build configuration list for PBXProject "Typeer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				571136C8144952D500D8E5C3 /* Debug */,
+				571136C9144952D500D8E5C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		571136CA144952D500D8E5C3 /* Build configuration list for PBXNativeTarget "Typeer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				571136CB144952D500D8E5C3 /* Debug */,
+				571136CC144952D500D8E5C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		571136CD144952D500D8E5C3 /* Build configuration list for PBXNativeTarget "TypeerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				571136CE144952D500D8E5C3 /* Debug */,
+				571136CF144952D500D8E5C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5711368F144952D500D8E5C3 /* Project object */;
+}
